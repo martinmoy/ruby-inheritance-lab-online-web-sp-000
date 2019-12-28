@@ -3,5 +3,6 @@ class Student < User
 
   def learn(string)
     @@all << string.sample 
+  end
 
 end
