@@ -2,7 +2,7 @@ class Student < User
   @knowledge =[]
 
   def learn(string)
-    @@all << string.sample 
+    @@all << string.sample
   end
 
 end
